@@ -1,7 +1,7 @@
 ---
   sudo: required
   group: deprecated-2017Q3
-  dist: bionic
+  dist: trusty 
   language: node_js
   node_js: 6.11
   cache:

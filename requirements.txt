@@ -66,6 +66,7 @@ stevedore==1.25.0         # via keystoneauth1, oslo.config, python-keystoneclien
 threepio==0.2             # via django-cyverse-auth
 urllib3==1.25.3
 uwsgi==2.0.15
+wheel==0.33.6
 wrapt==1.10.10            # via debtcollector, positional
 
 # The following packages are considered to be unsafe in a requirements file:
