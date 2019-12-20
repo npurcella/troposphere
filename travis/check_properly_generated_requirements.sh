@@ -23,8 +23,7 @@ function main {
     fi;
 
     # Ensure the proper version of pip-tools
-    #if [[ $(pip-tools-version) != $PIP_TOOLS_VERSION ]]; then
-    if [[ $(pip-tools-version) < $PIP_TOOLS_VERSION ]]; then
+    if [[ $(pip-tools-version) != $PIP_TOOLS_VERSION ]]; then
         warn_improper_pip_tools_version;
         exit 1;
     fi;
