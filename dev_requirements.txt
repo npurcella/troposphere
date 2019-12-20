@@ -94,4 +94,4 @@ wcwidth==0.1.7            # via prompt-toolkit
 wrapt==1.10.10
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.0.1        # via django-sslserver, ipdb, ipython
+# setuptools
